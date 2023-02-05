@@ -1,0 +1,28 @@
+{
+   "name": "aws-s3-test",
+   "version": "1.0.0",
+   "description": "aws s3 testing",
+   "main": "dist/server.js",
+   "author": "kwasiansah",
+   "license": "MIT",
+   "scripts": {
+      "dev": "nodemon ."
+   },
+   "private": false,
+   "dependencies": {
+      "@aws-sdk/client-s3": "^3.262.0",
+      "@types/express": "^4.17.16",
+      "@types/morgan": "^1.9.4",
+      "@types/multer": "^1.4.7",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "morgan": "^1.10.0",
+      "multer": "^1.4.5-lts.1",
+      "nodemon": "^2.0.20",
+      "ts-node": "^10.9.1"
+   },
+   "devDependencies": {
+      "@types/node": "^18.11.18",
+      "typescript": "^4.9.5"
+   }
+}
